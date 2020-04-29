@@ -11,7 +11,7 @@ def roster
    roster = {} 
  end 
  
- def student(name,grade) 
+ def add_student(name,grade) 
    roster[grade] = []
    roster[grade] << name 
    end
