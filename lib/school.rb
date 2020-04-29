@@ -1,9 +1,9 @@
 class School  # code here!
-#attr_accessor :school 
+attr_accessor :name 
 #attr_reader :
 
-def initialized(school)
-@school = school
+def initialized(name)
+@name = name
  end
 end 
 
