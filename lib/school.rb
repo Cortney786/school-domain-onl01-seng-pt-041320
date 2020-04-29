@@ -1,21 +1,18 @@
 class School  # code here!
-attr_accessor :name 
-#attr_reader :
+attr_accessor :name, :grade, :roster
+attr_reader :school
 
-def initialize(name)
- @name = name
- @roster = {}
- end
+def initialize(school)
+ @school = school
+ 
 
 
 def roster 
-  @roster 
+   roster = {} 
  end 
  
  def student(name,grade) 
-  @student = name
-  @grade = grade 
- if @roster.include?(grade) =false
- end
+   roster[grade] = []
+   roster[grade] << name 
+   end
 end
-
