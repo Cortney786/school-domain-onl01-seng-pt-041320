@@ -14,6 +14,7 @@ def roster
  
  def student(name) 
    @student = name
+ @add_student = student 
  
  end
 end
