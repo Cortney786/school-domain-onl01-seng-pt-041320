@@ -21,5 +21,6 @@ end
   def sort 
     @roster.each do |x, y| 
       y.sort!
- end
+  end
+ end 
 end
