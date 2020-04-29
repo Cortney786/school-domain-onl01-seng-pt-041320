@@ -3,8 +3,8 @@ attr_accessor :name
 #attr_reader :
 
 def initialize(name)
-@name = name
-@roster = {}
+ @name = name
+ @roster = {}
  end
 
 
@@ -15,6 +15,6 @@ def roster
  def student(name) 
    @student = name
  
+ end
 end
-
 
