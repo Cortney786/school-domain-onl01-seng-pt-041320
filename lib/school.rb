@@ -1,5 +1,5 @@
 class School  # code here!
 
-def initialized
-
+def initialized(school)
+@school = school
 end
