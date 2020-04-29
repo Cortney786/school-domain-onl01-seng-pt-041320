@@ -12,10 +12,10 @@ def roster
   @roster 
  end 
  
- def student(name) 
+ def student(name,grade) 
   @student = name
   @grade = grade 
- 
+ if @roster.include?(grade) =false
  end
 end
 
