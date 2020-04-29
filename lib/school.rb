@@ -11,7 +11,7 @@ class School
   end
     
   def add_student(student)
-    @student_name = name 
+    @student = student
 end  
   
   
