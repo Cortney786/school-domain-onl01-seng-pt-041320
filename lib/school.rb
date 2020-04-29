@@ -8,6 +8,6 @@ def initialized(name)
  end
 end 
 
-SCHOOL = []
+
 
 
