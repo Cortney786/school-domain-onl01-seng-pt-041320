@@ -12,7 +12,8 @@ def roster
   @roster 
  end 
  
- 
+ def student(name) 
+   @student = name
  
 end
 
