@@ -15,6 +15,7 @@ end
   
   def grade 
     @roster[grade]
+    
   end
   
   
