@@ -19,5 +19,7 @@ end
   end
   
   def sort 
-    @roster.each do |x, y|
+    @roster.each do |x, y| 
+      y.sort!
+ end
 end
